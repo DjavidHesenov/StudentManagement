@@ -116,6 +116,9 @@ def choice4():
         print("Surname: ", StudentSurnameList[SearchedNameIndex])
         print("Mail:    ", StudentMailList[SearchedNameIndex])
         print("Phone:   ", StudentPhoneList[SearchedNameIndex])
+        print("--------------------------------------------------------")
+        for i in range(len(StudentNameList)):
+            print(StudentCodeList[i], StudentNameList[i],StudentSurnameList[i], StudentMailList[i], StudentPhoneList[i])
     else:
         print("There's no such student")
         choice4()
